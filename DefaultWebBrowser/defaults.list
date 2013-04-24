@@ -1,0 +1,4 @@
+[Default Applications]
+application/html=google-chrome.desktop
+
+# This needs to go here: /home/admin/.local/share/applications/defaults.list

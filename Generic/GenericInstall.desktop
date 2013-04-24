@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Generic Install Shortcut
+Encoding=UTF-8
+Exec=lxterminal -e "/usr/bin/InstallScript.sh"
+Comment=Generic Install Shortcut Comment
+Icon=/usr/share/icons/nuoveXT2/128x128/actions/window-new.png
+ExecutionMode=Terminal
+NoDisplay=false
+Categories=TKL_Install;
+OnlyShowIn=LXDE
+Type=Application

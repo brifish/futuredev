@@ -1,0 +1,25 @@
+#!/bin/bash -ex
+# Brian Fisher <brifish@yahoo.com> 2013
+# Installs the Slim graphical login manager for X-11
+
+install()
+{
+    DEBIAN_FRONTEND=noninteractive apt-get -y \
+        -o DPkg::Options::=--force-confdef \
+        -o DPkg::Options::=--force-confold \
+        install $@
+}
+
+
+# Update apt package information
+apt-get update 
+
+# install printer(s) - HP Common Unix Printing System (CUPS) - XMB
+# info on the HP printer setup http://wiki.debian.org/SystemPrinting
+# Access the local cups config page on your workstation @ http://localhost:631/
+install cups cups-client
+
+echo
+echo ".. A shortcut to the CUPS admin webpage has been created in"
+echo "the TKL_Workstation menu. You can setup your printer there."
+echo

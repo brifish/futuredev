@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Install USB Boot utility
+Encoding=UTF-8
+Exec=lxterminal -e "/usr/local/bin/InstallScript.sh USBBoot /usr/local/share/tkl/USBBootInstall"
+Comment=Install the UNetbootin USB Boot utility
+Icon=/usr/share/icons/nuoveXT2/128x128/actions/window-new.png
+ExecutionMode=Terminal
+NoDisplay=false
+Categories=TKL_Install;
+OnlyShowIn=LXDE
+Type=Application

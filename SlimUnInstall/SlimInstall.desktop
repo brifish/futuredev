@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Slim Install-Uninstall
+Encoding=UTF-8
+Exec=lxterminal -e "/usr/local/bin/SlimInstall.sh"
+Comment=Install or Un-Install the Slim graphical login manager for X-11
+Icon=/usr/share/icons/nuoveXT2/128x128/actions/window-new.png
+ExecutionMode=Terminal
+NoDisplay=false
+Categories=TKL_Install;
+OnlyShowIn=LXDE
+Type=Application

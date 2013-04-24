@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Custom TKL Desktop
+Encoding=UTF-8
+Exec=lxterminal -e "/usr/local/bin/CustomTKLDesktop.sh"
+Comment=Select the custom TKL Desktop and taskbar icon
+Icon=/usr/share/icons/nuoveXT2/128x128/apps/terminal.png
+ExecutionMode=Terminal
+NoDisplay=false
+Categories=TKL_Admin;
+OnlyShowIn=LXDE
+Type=Application

@@ -1,0 +1,5 @@
+deb http://archive.turnkeylinux.org/debian squeeze-security main
+
+deb http://security.debian.org/ squeeze/updates main
+deb http://security.debian.org/ squeeze/updates contrib
+# deb http://security.debian.org/ squeeze/updates non-free

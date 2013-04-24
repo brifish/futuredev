@@ -1,0 +1,3 @@
+/usr/share/desktop-directories
+/usr/share/lxde/images
+/usr/share/lxde/wallpapers

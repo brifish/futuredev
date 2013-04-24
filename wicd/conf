@@ -1,0 +1,23 @@
+#!/bin/bash -ex
+# Brian Fisher <brifish@yahoo.com> 2013
+# Installs and configures the wicd application package
+
+install()
+{
+    DEBIAN_FRONTEND=noninteractive apt-get -y \
+        -o DPkg::Options::=--force-confdef \
+        -o DPkg::Options::=--force-confold \
+        install $@
+}
+
+
+# Add netdev group for wicd.
+groupadd netdev
+
+# This lets admin make network changes.
+adduser admin netdev
+
+# Install wicd - wired and wireless network manager - 30MB
+install wicd
+
+

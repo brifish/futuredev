@@ -1,0 +1,5 @@
+deb http://archive.turnkeylinux.org/debian squeeze main
+
+deb http://ftp.debian.org/debian squeeze main
+deb http://ftp.debian.org/debian squeeze contrib
+# deb http://ftp.debian.org/debian squeeze non-free
